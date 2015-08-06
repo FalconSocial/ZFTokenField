@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "ZFTokenField"
+  s.name         = "ZFTokenField+FalconSocial"
   s.version      = "0.0.1"
   s.summary      = "iOS custom view that let you add token view inside like NSTokenField."
   s.homepage     = "https://github.com/zoonooz/ZFTokenField"
@@ -55,7 +55,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "7.1"
+  s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -68,7 +68,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/zoonooz/ZFTokenField.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/FalconSocial/ZFTokenField.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
