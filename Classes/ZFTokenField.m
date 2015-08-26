@@ -253,7 +253,7 @@
     if ([self.delegate respondsToSelector:@selector(tokenField:didReturnWithText:)]) {
         [self.delegate tokenField:self didReturnWithText:textField.text];
     }
-    return YES;
+    return NO; // We do not want UITextField to insert line-breaks.
 }
 
 @end
